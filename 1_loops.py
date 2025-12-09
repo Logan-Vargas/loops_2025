@@ -46,11 +46,10 @@
 
 # Challenge:
 # Use a for loop to add all the numbers and print the total.
+total = 0
+numbers = (5, 6, 7, 8, 9, 10 ,11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26)
 
-new_numbers = list(range(1, 6001))
-print(new_numbers)
-
-for total in new_numbers:
-    total += total
+for total in numbers:
+    total = total + numbers
 
 print(total)
