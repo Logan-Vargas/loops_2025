@@ -8,20 +8,20 @@
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
 
-list1 = list(range(1, 11))
-print(list1)
-for i in list1:
-    print(i)
+# list1 = list(range(1, 11))
+# print(list1)
+# for i in list1:
+#     print(i)
 
 # ### **Problem 2: Sum of Numbers
 
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
 
-n = int(input("Enter a number"))
-total = 0
-for i in range(1, n+1):
-    total += i
-print("The sun of the numbers from 1 to", n, "is:", total)
+# n = int(input("Enter a number"))
+# total = 0
+# for i in range(1, n+1):
+#     total += i
+# print("The sun of the numbers from 1 to", n, "is:", total)
 
 
 
@@ -34,13 +34,13 @@ print("The sun of the numbers from 1 to", n, "is:", total)
 
 #5! = 5 * 4 * 3 * 2 * 1 = 120 
 
-def factorial(n): 
-    factorial= 1
-    for i in range(n):
-      factorial*= i+1
-    return factorial
+# def factorial(n): 
+#     factorial= 1
+#     for i in range(n):
+#       factorial*= i+1
+#     return factorial
 
-print(factorial(0))
+# print(factorial(20))
 
 # ### **Problem 4: Count Vowels**
 
@@ -50,6 +50,15 @@ print(factorial(0))
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+n = int(input("Enter a number: "))
+list2 = list(range(2, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
+
+
 
 
 
